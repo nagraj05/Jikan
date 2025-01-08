@@ -28,7 +28,7 @@ export default function AnimeCard({
           className="object-cover rounded-t-md"
         />
       </div>
-      <CardContent>
+      {/* <CardContent>
         <CardHeader>
           <CardTitle>{title}</CardTitle>
         </CardHeader>
@@ -47,7 +47,7 @@ export default function AnimeCard({
             Popularity: {popularity}
           </Badge>
         </div>
-      </CardContent>
+      </CardContent> */}
     </Card>
   );
 }
